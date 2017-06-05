@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">NotificatorApp</string>
+  <string name="Pref_time_interval">Time interval</string>
+  <string name="Pref_send_information_time_interval_summary">How often (in ms) information will be sent</string>
+  <string name="Pref_send_information_time_interval_title">Time interval</string>
+  <string name="Setting_button_name">Settings</string>
+</resources>
