@@ -63,6 +63,9 @@ namespace NotificatorApp
 			// aapt resource value: 0x7f060000
 			public const int settingsButton = 2131099648;
 			
+			// aapt resource value: 0x7f060001
+			public const int startServiceButton = 2131099649;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -109,6 +112,9 @@ namespace NotificatorApp
 			
 			// aapt resource value: 0x7f050005
 			public const int Setting_button_name = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int Start_service_button_name = 2131034118;
 			
 			static String()
 			{

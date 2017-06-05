@@ -5,6 +5,7 @@ using Android.Preferences;
 using Android.Content;
 using NotificatorApp.Activities;
 using System;
+using NotificatorApp.Service;
 
 namespace NotificatorApp
 {
@@ -17,15 +18,29 @@ namespace NotificatorApp
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
-            Button button = FindViewById<Button>(Resource.Id.settingsButton);
-            button.Click += OnButtonClicked;
+#region Buttons events
+            Button settingButton = FindViewById<Button>(Resource.Id.settingsButton);
+            settingButton.Click += OnSettingButtonClick;
+
+            Button startServiceButton = FindViewById<Button>(Resource.Id.startServiceButton);
+            startServiceButton.Click += OnStartServiceButtonClick;
+#endregion
 
         }
 
-        void OnButtonClicked(object sender, EventArgs e)
+        void OnSettingButtonClick(object sender, EventArgs e)
         {
             Intent intent = new Intent(this.ApplicationContext, typeof(SettingsActivity));
             StartActivity(intent);
+        }
+
+        void OnStartServiceButtonClick(object sender, EventArgs e)
+        {
+            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+            var t = prefs.GetString("Pref_key_send_information_time_interval","0");
+
+            Intent intent = new Intent(this.ApplicationContext, typeof(BackgroundService));
+            StartService(intent);
         }
     }
 }
