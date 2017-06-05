@@ -7,6 +7,7 @@
       android:key="Pref_key_send_information_time_interval"
       android:summary="@string/Pref_send_information_time_interval_summary"
       android:title="@string/Pref_send_information_time_interval_title"
+      android:numeric="integer" 
       android:defaultValue="5000" />
   </PreferenceCategory>
 </PreferenceScreen>

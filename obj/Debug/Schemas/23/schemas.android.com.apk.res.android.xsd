@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>05.06.2017 20:26:33</xs:documentation>
+    <xs:documentation>05.06.2017 20:33:41</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -3611,6 +3611,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -3656,6 +3657,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -4267,6 +4269,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -4798,6 +4801,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -5879,6 +5883,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -6174,6 +6179,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -10879,6 +10885,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -10924,6 +10931,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11496,6 +11504,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11541,6 +11550,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11586,6 +11596,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -16627,6 +16638,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -16764,7 +16776,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
-            <xs:enumeration value="@id/button1" />
+            <xs:enumeration value="@id/settingsButton" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17097,6 +17109,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -18318,6 +18331,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -20781,6 +20795,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -20983,6 +20998,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -21242,6 +21258,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -21939,6 +21956,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -23845,6 +23863,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -25771,6 +25790,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -26756,6 +26776,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -30158,6 +30179,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -31426,6 +31448,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -32603,6 +32626,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -34263,6 +34287,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -34308,6 +34333,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -37410,6 +37436,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -37455,6 +37482,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -39590,6 +39618,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -39738,6 +39767,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -40868,6 +40898,7 @@
             <xs:enumeration value="@string/Pref_send_information_time_interval_title" />
             <xs:enumeration value="@string/Pref_time_interval" />
             <xs:enumeration value="@string/Setting_button_name" />
+            <xs:enumeration value="@string/Start_service_button_name" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
