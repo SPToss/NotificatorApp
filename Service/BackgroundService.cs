@@ -10,6 +10,7 @@ using Android.Views;
 using Android.Widget;
 using System.Threading;
 using Android.Preferences;
+using NotificatorApp.Domain;
 
 namespace NotificatorApp.Service
 {
@@ -45,11 +46,15 @@ namespace NotificatorApp.Service
 
 
 
+            BatteryControlManager manager = new BatteryControlManager();
+            var t = manager.PercentRemaining;
+            var tt = manager.PowerSourceOfBattery;
+            var ttt = manager.StatusOfBattery;
             var myHandler = new Handler(Looper.MainLooper);
 
 
             myHandler.Post(() => {
-                Toast.MakeText(this, "Message from demo service", ToastLength.Long).Show();
+                Toast.MakeText(this, $"Battery level : {t}%, BatteryStatus : {ttt}, BatterySource {tt}", ToastLength.Long).Show();
             });
 
         }

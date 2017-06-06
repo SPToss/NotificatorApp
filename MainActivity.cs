@@ -6,6 +6,7 @@ using Android.Content;
 using NotificatorApp.Activities;
 using System;
 using NotificatorApp.Service;
+using NotificatorApp.Domain;
 
 namespace NotificatorApp
 {
@@ -36,9 +37,6 @@ namespace NotificatorApp
 
         void OnStartServiceButtonClick(object sender, EventArgs e)
         {
-            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
-            var t = prefs.GetString("Pref_key_send_information_time_interval","0");
-
             Intent intent = new Intent(this.ApplicationContext, typeof(BackgroundService));
             StartService(intent);
         }

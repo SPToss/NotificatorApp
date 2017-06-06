@@ -54,6 +54,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\SettingsActivity.cs" />
+    <Compile Include="Domain\BatteryControlManager.cs" />
+    <Compile Include="Domain\Enums\BateryStatus.cs" />
+    <Compile Include="Domain\Enums\BatteryPowerSource.cs" />
+    <Compile Include="Domain\Enums\Source.cs" />
+    <Compile Include="Domain\Enums\Status.cs" />
+    <Compile Include="Domain\Message.cs" />
+    <Compile Include="Domain\Stages\CheckBateryStage.cs" />
+    <Compile Include="Domain\Stages\IStage.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

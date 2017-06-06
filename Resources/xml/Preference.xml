@@ -7,7 +7,24 @@
       android:key="Pref_key_send_information_time_interval"
       android:summary="@string/Pref_send_information_time_interval_summary"
       android:title="@string/Pref_send_information_time_interval_title"
-      android:numeric="integer" 
+      android:numeric="integer"
       android:defaultValue="5000" />
+  </PreferenceCategory>
+  <PreferenceCategory
+      android:title="@string/Pref_battery_settings"
+      android:key="pref_key_battery_settings">
+    <SwitchPreference
+        android:title="@string/Pref_battery_track_title"
+        android:summary="@string/Pref_battery_track_summary"
+        android:key="Pref_battery_track"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+    android:dependency="Pref_battery_track"
+    android:disableDependentsState="true"
+    android:title="@string/Pref_battery_track_battery_status_title"
+    android:summary="@string/Pref_battery_track_battery_status_summary"
+    android:key="Pref_battery_track_status"
+    android:defaultValue="false"/>
+
   </PreferenceCategory>
 </PreferenceScreen>

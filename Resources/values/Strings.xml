@@ -3,10 +3,19 @@
   <!-- General -->
   <string name="Hello">Hello World, Click Me!</string>
   <string name="ApplicationName">NotificatorApp</string>
-  <!-- Setting view -->
+  <!-- Preference view begin-->
+  <!-- Time interval -->
   <string name="Pref_time_interval">Time interval</string>
   <string name="Pref_send_information_time_interval_summary">How often (in ms) information will be sent</string>
   <string name="Pref_send_information_time_interval_title">Time interval</string>
+  <!-- Battery -->
+  <string name="Pref_battery_settings">Battery</string>
+  <string name="Pref_battery_track_title">Track battery</string>
+  <string name="Pref_battery_track_summary">Seting used to enable/disable tracking battery</string>
+  <string name="Pref_battery_track_battery_status_title">Track battery status</string>
+  <string name="Pref_battery_track_battery_status_summary">Seting used to enable/disable tracking battery status</string>
+  <!-- Preference view end-->
+
   <!-- Buttons -->
   <string name="Setting_button_name">Settings</string>
   <string name="Start_service_button_name">Start service</string>
