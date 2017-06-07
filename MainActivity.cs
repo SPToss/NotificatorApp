@@ -19,13 +19,15 @@ namespace NotificatorApp
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
-#region Buttons events
+            #region Buttons events
             Button settingButton = FindViewById<Button>(Resource.Id.settingsButton);
             settingButton.Click += OnSettingButtonClick;
 
             Button startServiceButton = FindViewById<Button>(Resource.Id.startServiceButton);
             startServiceButton.Click += OnStartServiceButtonClick;
-#endregion
+            #endregion
+
+
 
         }
 

@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Preferences;
 using Android.Content.PM;
+using static Android.Preferences.Preference;
 
 namespace NotificatorApp.Activities
 {
@@ -22,6 +23,11 @@ namespace NotificatorApp.Activities
             base.OnCreate(savedInstanceState);
 
             AddPreferencesFromResource(Resource.Xml.Preference);
+
+            #region Preference events
+            var prefBatteryTrack = PreferenceScreen.FindPreference("Pref_battery_track");
+            prefBatteryTrack.PreferenceChange += PrefBatteryTrackChange;
+            #endregion
 
         }
 
@@ -39,6 +45,15 @@ namespace NotificatorApp.Activities
         protected override void OnResume()
         {
             base.OnResume();
+        }
+
+        private void PrefBatteryTrackChange(object sender, PreferenceChangeEventArgs e)
+        {
+            if (!(bool)e.NewValue)
+            {
+                var checkp = PreferenceScreen.FindPreference("Pref_battery_track_status") as CheckBoxPreference;
+                checkp.Checked = false;
+            }
         }
     }
 }
