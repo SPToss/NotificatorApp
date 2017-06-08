@@ -7,6 +7,8 @@ using NotificatorApp.Activities;
 using System;
 using NotificatorApp.Service;
 using NotificatorApp.Domain;
+using Android.Bluetooth;
+using System.Linq;
 
 namespace NotificatorApp
 {
@@ -27,7 +29,15 @@ namespace NotificatorApp
             startServiceButton.Click += OnStartServiceButtonClick;
             #endregion
 
+            var btAdapter = BluetoothAdapter.DefaultAdapter;
 
+            // Get a set of currently paired devices
+            var pairedDevices = btAdapter.BondedDevices;
+
+            var t = pairedDevices.Select(x => x.Address).ToList();
+            BluetoothDevice device = btAdapter.GetRemoteDevice(t[1]);
+
+            //btAdapter.StartDiscovery();
 
         }
 
