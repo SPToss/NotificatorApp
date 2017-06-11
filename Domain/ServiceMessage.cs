@@ -9,16 +9,17 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using System.Runtime.Serialization.
-
+using NotificatorApp.Domain.Enums;
 
 namespace NotificatorApp.Domain
 {
-    public abstract class Message
+    public class ServiceMessage
     {
-        public override string ToString()
-        {
-           // var json = JsonConvert.SerializeObject(person);
-        }
+        public string Text { get; set; }
+
+        public Status MessageStatus { get; set; }
+        
+        public Source MessageSource { get; set; }
+
     }
 }

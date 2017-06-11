@@ -14,6 +14,10 @@
   <string name="Pref_battery_track_summary">Seting used to enable/disable tracking battery</string>
   <string name="Pref_battery_track_battery_status_title">Track battery status</string>
   <string name="Pref_battery_track_battery_status_summary">Seting used to enable/disable tracking battery status</string>
+  <string name="Pref_battery_allert_title">Enable/Disable sending warning about batery level</string>
+  <string name="Pref_battery_allert_summary">Seting used to enable/disable sending warning about batery level</string>
+  <string name="Pref_battery_allert_level_summary">The level of battery below which warning will be send</string>
+  <string name="Pref_battery_allert_level_title">Battery level</string>
   <!-- Preference view end-->
 
   <!-- Buttons -->

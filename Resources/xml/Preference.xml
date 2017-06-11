@@ -19,12 +19,17 @@
         android:key="Pref_battery_track"
         android:defaultValue="true"/>
     <CheckBoxPreference
-    android:dependency="Pref_battery_track"
-    android:disableDependentsState="true"
-    android:title="@string/Pref_battery_track_battery_status_title"
-    android:summary="@string/Pref_battery_track_battery_status_summary"
-    android:key="Pref_battery_track_status"
-    android:defaultValue="false"/>
-
+      android:key="Pref_battery_allert"
+      android:dependency="Pref_battery_track"
+      android:title="@string/Pref_battery_allert_title"
+      android:summary="@string/Pref_battery_allert_summary"
+      android:defaultValue="false"/>
+    <EditTextPreference
+      android:key="Pref_battery_allert_level"
+      android:dependency="Pref_battery_allert"
+      android:summary="@string/Pref_battery_allert_level_summary"
+      android:title="@string/Pref_battery_allert_level_title"
+      android:numeric="integer"
+      android:defaultValue="30" />
   </PreferenceCategory>
 </PreferenceScreen>

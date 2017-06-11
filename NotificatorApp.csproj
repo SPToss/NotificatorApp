@@ -49,17 +49,22 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Json" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\SettingsActivity.cs" />
     <Compile Include="Domain\BatteryControlManager.cs" />
+    <Compile Include="Domain\BetteryMessage.cs" />
     <Compile Include="Domain\Enums\BateryStatus.cs" />
     <Compile Include="Domain\Enums\BatteryPowerSource.cs" />
     <Compile Include="Domain\Enums\Source.cs" />
     <Compile Include="Domain\Enums\Status.cs" />
     <Compile Include="Domain\Message.cs" />
+    <Compile Include="Domain\ServiceMessage.cs" />
+    <Compile Include="Domain\SmsMessage.cs" />
+    <Compile Include="Domain\SmsMessagesManager.cs" />
     <Compile Include="Domain\Stages\CheckBateryStage.cs" />
     <Compile Include="Domain\Stages\IStage.cs" />
     <Compile Include="MainActivity.cs" />

@@ -101,6 +101,18 @@ namespace NotificatorApp
 			// aapt resource value: 0x7f050000
 			public const int Hello = 2131034112;
 			
+			// aapt resource value: 0x7f05000c
+			public const int Pref_battery_allert_level_summary = 2131034124;
+			
+			// aapt resource value: 0x7f05000d
+			public const int Pref_battery_allert_level_title = 2131034125;
+			
+			// aapt resource value: 0x7f05000b
+			public const int Pref_battery_allert_summary = 2131034123;
+			
+			// aapt resource value: 0x7f05000a
+			public const int Pref_battery_allert_title = 2131034122;
+			
 			// aapt resource value: 0x7f050005
 			public const int Pref_battery_settings = 2131034117;
 			
@@ -125,11 +137,11 @@ namespace NotificatorApp
 			// aapt resource value: 0x7f050002
 			public const int Pref_time_interval = 2131034114;
 			
-			// aapt resource value: 0x7f05000a
-			public const int Setting_button_name = 2131034122;
+			// aapt resource value: 0x7f05000e
+			public const int Setting_button_name = 2131034126;
 			
-			// aapt resource value: 0x7f05000b
-			public const int Start_service_button_name = 2131034123;
+			// aapt resource value: 0x7f05000f
+			public const int Start_service_button_name = 2131034127;
 			
 			static String()
 			{

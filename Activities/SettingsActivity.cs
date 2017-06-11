@@ -6,7 +6,7 @@ using static Android.Preferences.Preference;
 
 namespace NotificatorApp.Activities
 {
-    [Activity(Label = "TEST", ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "SETTINGS", ScreenOrientation = ScreenOrientation.Portrait)]
     public class SettingsActivity : PreferenceActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -18,6 +18,7 @@ namespace NotificatorApp.Activities
             #region Preference events
             var prefBatteryTrack = PreferenceScreen.FindPreference("Pref_battery_track");
             prefBatteryTrack.PreferenceChange += PrefBatteryTrackChange;
+
             #endregion
 
         }
@@ -42,9 +43,15 @@ namespace NotificatorApp.Activities
         {
             if (!(bool)e.NewValue)
             {
-                var checkp = PreferenceScreen.FindPreference("Pref_battery_track_status") as CheckBoxPreference;
-                checkp.Checked = false;
+                UncheckPreference("Pref_battery_allert");
             }
         }
+
+        private void UncheckPreference(string preference)
+        {
+            var checkp = PreferenceScreen.FindPreference(preference) as CheckBoxPreference;
+            checkp.Checked = false;
+        }
+
     }
 }
