@@ -32,4 +32,13 @@
       android:numeric="integer"
       android:defaultValue="30" />
   </PreferenceCategory>
+  <PreferenceCategory
+      android:title="@string/Pref_sms_category_title"
+      android:key="Pref_sms_category">
+    <SwitchPreference
+      android:key="Pref_sms_track"
+      android:summary="@string/Pref_sms_track_summary"
+      android:title="@string/Pref_sms_track_title"
+      android:defaultValue="false" />
+  </PreferenceCategory>
 </PreferenceScreen>

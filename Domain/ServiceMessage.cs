@@ -1,19 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using NotificatorApp.Domain.Enums;
+﻿using NotificatorApp.Domain.Enums;
 
 namespace NotificatorApp.Domain
 {
-    public class ServiceMessage
+    public class ServiceMessage : Message
     {
         public string Text { get; set; }
 
@@ -21,5 +10,33 @@ namespace NotificatorApp.Domain
         
         public Source MessageSource { get; set; }
 
+        public ServiceMessage()
+        {
+
+        }
+
+        public ServiceMessage(string text)
+        {
+            Text = text;
+        }
+
+        public ServiceMessage(string text, Source source) : this(text)
+        {
+            MessageSource = source;
+        }
+
+        public ServiceMessage(string text, Status status) : this(text)
+        {
+            MessageStatus = status;
+        }
+
+        public ServiceMessage(Status status, Source source) : this(string.Empty, status, source) { }
+
+        public ServiceMessage(string text, Status status, Source source)
+        {
+            MessageSource = source;
+            MessageStatus = status;
+            Text = text;
+        }
     }
 }

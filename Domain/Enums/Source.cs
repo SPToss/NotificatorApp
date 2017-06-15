@@ -4,6 +4,7 @@ namespace NotificatorApp.Domain.Enums
 {
     public enum Source
     {
-        Batery
+        Batery,
+        SMS
     }
 }

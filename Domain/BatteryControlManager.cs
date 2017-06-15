@@ -8,13 +8,25 @@ using NotificatorApp.Domain.Enums;
 
 namespace NotificatorApp.Domain
 {
-    class BatteryControlManager 
+    public class BatteryControlManager 
     {
-        public int PercentRemaining => GetPercentRemaing();
+        private int PercentRemaining => GetPercentRemaing();
 
-        public BateryStatus StatusOfBattery => GetBateryStatus();
+        private BateryStatus StatusOfBattery => GetBateryStatus();
 
-        public BatteryPowerSource PowerSourceOfBattery => GetBatteryPowerSource();
+        private BatteryPowerSource PowerSourceOfBattery => GetBatteryPowerSource();
+
+        public BatteryMessage GetBatteryStatus()
+        {
+            return new BatteryMessage
+            {
+                BateryStatus = StatusOfBattery,
+                BatteryLevel = PercentRemaining,
+                BatteryPowerSource = PowerSourceOfBattery
+            };
+        }
+
+
 
         private int GetPercentRemaing()
         {

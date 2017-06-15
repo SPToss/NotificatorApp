@@ -43,18 +43,11 @@ namespace NotificatorApp.Service
 
         void HandleTimerCallback(object state)
         {
-
-
-
-            BatteryControlManager manager = new BatteryControlManager();
-            var t = manager.PercentRemaining;
-            var tt = manager.PowerSourceOfBattery;
-            var ttt = manager.StatusOfBattery;
             var myHandler = new Handler(Looper.MainLooper);
-
+        
 
             myHandler.Post(() => {
-                Toast.MakeText(this, $"Battery level : {t}%, BatteryStatus : {ttt}, BatterySource {tt}", ToastLength.Long).Show();
+                Toast.MakeText(this, $"Battery level : %, BatteryStatus : BatterySourcet", ToastLength.Long).Show();
             });
 
         }

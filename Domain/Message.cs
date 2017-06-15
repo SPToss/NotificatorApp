@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using System.Runtime.Serialization.
-
+﻿using Newtonsoft.Json;
 
 namespace NotificatorApp.Domain
 {
@@ -18,7 +6,7 @@ namespace NotificatorApp.Domain
     {
         public override string ToString()
         {
-           // var json = JsonConvert.SerializeObject(person);
+           return JsonConvert.SerializeObject(this);
         }
     }
 }

@@ -3,5 +3,6 @@
     public interface IStage
     {
         ServiceMessage RunStage();
+        bool CanRunStage();
     }
 }

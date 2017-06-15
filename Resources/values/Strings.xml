@@ -18,6 +18,10 @@
   <string name="Pref_battery_allert_summary">Seting used to enable/disable sending warning about batery level</string>
   <string name="Pref_battery_allert_level_summary">The level of battery below which warning will be send</string>
   <string name="Pref_battery_allert_level_title">Battery level</string>
+  <!-- SMS -->
+  <string name="Pref_sms_category_title">SMS</string>
+  <string name="Pref_sms_track_summary">Track inbox and send information about unreaded messages</string>
+  <string name="Pref_sms_track_title">Track SMS</string>
   <!-- Preference view end-->
 
   <!-- Buttons -->

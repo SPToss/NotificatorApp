@@ -134,14 +134,23 @@ namespace NotificatorApp
 			// aapt resource value: 0x7f050004
 			public const int Pref_send_information_time_interval_title = 2131034116;
 			
+			// aapt resource value: 0x7f05000e
+			public const int Pref_sms_category_title = 2131034126;
+			
+			// aapt resource value: 0x7f05000f
+			public const int Pref_sms_track_summary = 2131034127;
+			
+			// aapt resource value: 0x7f050010
+			public const int Pref_sms_track_title = 2131034128;
+			
 			// aapt resource value: 0x7f050002
 			public const int Pref_time_interval = 2131034114;
 			
-			// aapt resource value: 0x7f05000e
-			public const int Setting_button_name = 2131034126;
+			// aapt resource value: 0x7f050011
+			public const int Setting_button_name = 2131034129;
 			
-			// aapt resource value: 0x7f05000f
-			public const int Start_service_button_name = 2131034127;
+			// aapt resource value: 0x7f050012
+			public const int Start_service_button_name = 2131034130;
 			
 			static String()
 			{

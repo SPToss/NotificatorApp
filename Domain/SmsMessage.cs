@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace NotificatorApp.Domain
 {
-    public class SmsMessage
+    public class SmsMessage : Message
     {
         public string Id { get; private set; }
         public string From { get; private set; }
