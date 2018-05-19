@@ -4,6 +4,10 @@
   <string name="Hello">Hello World, Click Me!</string>
   <string name="ApplicationName">NotificatorApp</string>
   <!-- Preference view begin-->
+  <!-- Bluetooth-->
+  <string name="Pref_bluetooth_name">Bluetooth</string>
+  <string name="Pref_bluetooth_default_device_name_summary">Specify name of Bluetooth device. Keep in mind that device need to be paired.</string>
+  <string name="Pref_bluetooth_default_device_name">Default device name.</string>
   <!-- Time interval -->
   <string name="Pref_time_interval">Time interval</string>
   <string name="Pref_send_information_time_interval_summary">How often (in ms) information will be sent</string>

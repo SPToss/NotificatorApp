@@ -10,6 +10,7 @@ namespace NotificatorApp.Domain.Stages
         private bool _trackBattery;
         private int _allertLevel;
         private BatteryControlManager _manager;
+
         public CheckBateryStage(string preference) : base(preference)
         {
             _sendBatteryAllert = Preference.GetBoolean("Pref_battery_allert", false);
